@@ -34,6 +34,8 @@ The z/OS environment that Zowe CLI communicates with has some advantages that ar
   - For production use of Zowe, see [Configuring z/OSMF](systemrequirements-zosmf.md).
   :::
 
+- Conditional operational requisite: z/OS OpenSSH V2.2.0 or higher for ssh connection.
+
 ### Zowe Application Framework requirements (host)
 
 The Zowe Application Framework server provides the Zowe Desktop that contains an extensible GUI with a number of applications allowing access to z/OS functions, such as the File Editor, TN3270 emulator, JES Explorer, and more. For more information, see [Zowe Architecture](../getting-started/zowe-architecture.md#zlux).
